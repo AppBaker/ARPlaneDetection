@@ -13,6 +13,8 @@
 		E4603B6A224A1F74002E31AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4603B68224A1F74002E31AB /* Main.storyboard */; };
 		E4603B6C224A1F78002E31AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4603B6B224A1F78002E31AB /* Assets.xcassets */; };
 		E4603B6F224A1F78002E31AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4603B6D224A1F78002E31AB /* LaunchScreen.storyboard */; };
+		E49D7D62224A9854006EF597 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E49D7D61224A9854006EF597 /* README.md */; };
+		E49D7D64224A98A5006EF597 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E49D7D63224A98A5006EF597 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E4603B6B224A1F78002E31AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4603B6E224A1F78002E31AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4603B70224A1F78002E31AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49D7D61224A9854006EF597 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E49D7D63224A98A5006EF597 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		E4603B56224A1F74002E31AB = {
 			isa = PBXGroup;
 			children = (
+				E49D7D63224A98A5006EF597 /* .gitignore */,
+				E49D7D61224A9854006EF597 /* README.md */,
 				E4603B61224A1F74002E31AB /* ARPlane StarryWings */,
 				E4603B60224A1F74002E31AB /* Products */,
 			);
@@ -151,7 +157,9 @@
 			files = (
 				E4603B65224A1F74002E31AB /* art.scnassets in Resources */,
 				E4603B6F224A1F78002E31AB /* LaunchScreen.storyboard in Resources */,
+				E49D7D62224A9854006EF597 /* README.md in Resources */,
 				E4603B6C224A1F78002E31AB /* Assets.xcassets in Resources */,
+				E49D7D64224A98A5006EF597 /* .gitignore in Resources */,
 				E4603B6A224A1F74002E31AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
