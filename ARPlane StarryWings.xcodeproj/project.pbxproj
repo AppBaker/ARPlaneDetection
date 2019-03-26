@@ -56,15 +56,39 @@
 		E4603B61224A1F74002E31AB /* ARPlane StarryWings */ = {
 			isa = PBXGroup;
 			children = (
-				E4603B62224A1F74002E31AB /* AppDelegate.swift */,
-				E4603B64224A1F74002E31AB /* art.scnassets */,
-				E4603B66224A1F74002E31AB /* ViewController.swift */,
-				E4603B68224A1F74002E31AB /* Main.storyboard */,
-				E4603B6B224A1F78002E31AB /* Assets.xcassets */,
-				E4603B6D224A1F78002E31AB /* LaunchScreen.storyboard */,
+				E4603B77224A2004002E31AB /* Supporting Files */,
+				E4603B76224A1FE4002E31AB /* Controllers */,
+				E4603B78224A201B002E31AB /* View */,
 				E4603B70224A1F78002E31AB /* Info.plist */,
 			);
 			path = "ARPlane StarryWings";
+			sourceTree = "<group>";
+		};
+		E4603B76224A1FE4002E31AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4603B66224A1F74002E31AB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4603B77224A2004002E31AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4603B62224A1F74002E31AB /* AppDelegate.swift */,
+				E4603B64224A1F74002E31AB /* art.scnassets */,
+				E4603B6B224A1F78002E31AB /* Assets.xcassets */,
+				E4603B6D224A1F78002E31AB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4603B78224A201B002E31AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4603B68224A1F74002E31AB /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
